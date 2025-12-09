@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd backend && bun run build && cd ../frontend && bun run build",
+    "build": "cd backend && bun run build && cd ../frontend && npm run build",
     "start-backend": "cd backend && bun run dev",
-    "start-frontend": "cd frontend && bun run dev",
+    "start-frontend": "cd frontend && npm run dev",
     "start": "npm-run-all --parallel start-backend start-frontend"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sai-guru/OutriX_task_3.git"
+    "url": "git+https://github.com/Sai-guru/chat-by-prigeesh.git"
   },
   "bugs": {
-    "url": "https://github.com/Sai-guru/OutriX_task_3/issues"
+    "url": "https://github.com/Sai-guru/chat-by-prigeesh/issues"
   },
-  "homepage": "https://github.com/Sai-guru/OutriX_task_3#readme",
+  "homepage": "https://github.com/Sai-guru/chat-by-prigeesh#readme",
   "keywords": [],
   "author": "",
   "license": "ISC",
