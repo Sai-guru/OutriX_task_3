@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd backend && bun run build && cd ../frontend && npm run build",
-    "start-backend": "cd backend && bun run dev",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build",
+    "start-backend": "cd backend && npm run dev",
     "start-frontend": "cd frontend && npm run dev",
     "start": "npm-run-all --parallel start-backend start-frontend"
   },
